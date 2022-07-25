@@ -1,9 +1,11 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = function (drivers) {
-  return ["Antonia", "Nuru"];
+const drivers = ["Antonia", "Nuru", "Amari", "Mo"];
+
+const returnFirstTwoDrivers = function (array) {
+  return array.slice(0, 2);
 };
-const returnLastTwoDrivers = function (drivers) {
-  return ["Amari", "Mo"];
+const returnLastTwoDrivers = function (array) {
+  return array.slice(2, 4);
 };
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
